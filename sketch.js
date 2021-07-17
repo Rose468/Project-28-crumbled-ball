@@ -20,10 +20,10 @@ function setup() {
 	//Create the Bodies Here.
 	paperball = new Paper(300,200,60);
 	ground = new Ground(600,height,2000,20)
-    piece1 = new Bin(900,320,160,20);
-	piece2 = new Bin(940,320,20,120);
-	piece3 = new Bin(820,319,20,120);
-  
+   
+        piece1 = new Bin(900,580,160,20);
+	piece2 = new Bin(970,530,20,120);
+	piece3 = new Bin(820,530,20,120);
    
 	Engine.run(engine);
   
